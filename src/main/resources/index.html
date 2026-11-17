@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Haven - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Spice Haven Restaurant</h1>
+    <p>Authentic Flavors, Delivered Fast</p>
+</header>
+
+<main>
+    <section class="category-filter">
+        <button onclick="filterMenu('all')" class="active">All</button>
+        <button onclick="filterMenu('starters')">Starters</button>
+        <button onclick="filterMenu('mains')">Main Course</button>
+    </section>
+
+    <div id="menu-container" class="menu-grid">
+        <!-- Populated via JavaScript -->
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
